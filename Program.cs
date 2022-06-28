@@ -67,9 +67,12 @@ for (int i = 0; i < arraySquare.Length; i++)
     Console.Write(arraySquare[i] + " ");
 }
 
+Console.WriteLine();
+Console.WriteLine("******************");
 
 int arraySquareSum = SumArrayElements(arraySquare);
 //stampa somma dei quadrati degli elementi dell'array
+Console.WriteLine("somma dei quadrati degli elementi dell'array: ");
 Console.WriteLine(arraySquareSum);
 
 
@@ -80,3 +83,7 @@ Console.WriteLine("Quadrato di un numero: " + Square(5));
 //stampa gli elementi dell'array
 PrintArray(array);
 
+Console.WriteLine();
+Console.WriteLine("******************");
+Console.WriteLine("FIN");
+Console.WriteLine("******************");
