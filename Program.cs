@@ -51,11 +51,11 @@ int[] DoArraySquare(int[] array)
 
 
 
-
+//stampa somma numeri array (resituisce un nuovo array)
 int arraySum = SumArrayElements(array);
-
 Console.WriteLine(arraySum);
 
+//eleva al quadrato gli elementi dell'array (resituisce un nuovo array)
 int[] arraySquare =  DoArraySquare(array);
 
 for (int i = 0; i < arraySquare.Length; i++)
@@ -63,9 +63,11 @@ for (int i = 0; i < arraySquare.Length; i++)
     Console.WriteLine(arraySquare[i]);
 }
 
+
+//quadrato di un numero
 Console.WriteLine(Square(5));
 
-
+//stampa gli elementi dell'array
 PrintArray(array);
 
 
